@@ -1,2 +1,2 @@
 # LeetCode
-Demo for the LeetCode using Python3.
+Demo for the LeetCode using Python.
