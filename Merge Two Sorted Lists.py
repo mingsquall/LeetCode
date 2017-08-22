@@ -28,6 +28,7 @@ class Solution(object):
                 cur.next = l2
                 l2 = l2.next
                 cur = cur.next
+                
         if l1 != None:
             cur.next = l1
         if l2 != None:
