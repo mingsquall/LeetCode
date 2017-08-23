@@ -16,7 +16,7 @@ class Solution(object):
         if len(nums) == 1:
             return maxSum
         
-        # 动态比较
+        # 每输入一个数据就进行即时处理
         for i in range(1,len(nums)):
             thisSum = max(thisSum + nums[i], nums[i])
             maxSum = max(thisSum, maxSum)
